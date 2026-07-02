@@ -1,0 +1,22 @@
+@import './vendors/container.css';
+@import './vendors/fonts.css';
+@import './vendors/normalize.css';
+@import './vendors/vars.css';
+
+@import './components/header.css';
+
+@import './screens/intro.css';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

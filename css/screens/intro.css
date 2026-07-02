@@ -1,0 +1,33 @@
+.intro{
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0px;
+}
+
+.intro__title{
+    font-size: 64px;
+    max-width: 540px;
+    color: var(--white);
+}
+
+@media(max-width: 1200px){
+    .intro__title{
+        font-size: 32px;
+        max-width: 400px;
+    }
+
+    .intro{
+        padding: 100px 0px;
+    }
+}
+
+@media(max-width: 540px){
+    .intro{
+        padding: 50px 0px;
+    }
+
+    .intro__title{
+        font-size: 26px;
+        max-width: 300px;
+    }
+}
