@@ -1,3 +1,7 @@
+.stages{
+    background: rgba(249, 249, 249, 1);
+}
+
 .stages-advantages-list__item__label{
     display: flex;
     align-items: center;
@@ -55,8 +59,8 @@
         align-items: center;
     }
 
-    .stages__subtitle{
-        max-width: 100% !important;
+    .stages__subtitle, .stages__title{
+        text-align: center;
     }
 }
 
