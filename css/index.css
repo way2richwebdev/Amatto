@@ -7,6 +7,7 @@
 
 @import './screens/intro.css';
 @import './screens/stages.css';
+@import './screens/projects.css';
 
 *{
     box-sizing: border-box;
