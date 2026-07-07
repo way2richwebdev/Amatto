@@ -1,0 +1,6 @@
+@import './screens/intro.css';
+@import './screens/stages.css';
+@import './screens/projects.css';
+
+@import '../components/header.css';
+@import '../components/form.css';

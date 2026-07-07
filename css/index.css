@@ -3,12 +3,6 @@
 @import './vendors/normalize.css';
 @import './vendors/vars.css';
 
-@import './components/header.css';
-
-@import './screens/intro.css';
-@import './screens/stages.css';
-@import './screens/projects.css';
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -43,6 +37,7 @@ li{
 
 .button.light{
     background: var(--yellow);
+    color: var(--gray);
 }
 
 .button.light:hover{
