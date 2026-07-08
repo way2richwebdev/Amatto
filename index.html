@@ -68,25 +68,27 @@
                             </svg>
                             <span>+373 68 159 759</span>
                         </a>
+                        <button class="header-content__button menu__button">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </button>
                     </div>
                 </div>
                 <div class="header-content-bottom">
                     <nav class="header-nav">
                         <ul itemscope itemtype="http://schema.org/SiteNavigationElement" class="header-nav-menu">
                             <li class="header-nav-menu__item">
-                                <a itemprop="url" href="#" class="header-nav-menu__item__link">Каталог</a>
+                                <a itemprop="url" href="#catalog" class="header-nav-menu__item__link">Каталог</a>
                             </li>
                             <li class="header-nav-menu__item">
-                                <a itemprop="url" href="#" class="header-nav-menu__item__link">Мебель для дома</a>
+                                <a itemprop="url" href="#form" class="header-nav-menu__item__link">Рассчитать проект</a>
                             </li>
                             <li class="header-nav-menu__item">
-                                <a itemprop="url" href="#" class="header-nav-menu__item__link">Мебель для бизнеса</a>
+                                <a itemprop="url" href="#about" class="header-nav-menu__item__link">О нас</a>
                             </li>
                             <li class="header-nav-menu__item">
-                                <a itemprop="url" href="#" class="header-nav-menu__item__link">Дизайн интерьера</a>
-                            </li>
-                            <li class="header-nav-menu__item">
-                                <a itemprop="url" href="#" class="header-nav-menu__item__link">Контакты</a>
+                                <a itemprop="url" href="#contacts" class="header-nav-menu__item__link">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -141,66 +143,45 @@
             </div>
         </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="catalog">
         <div class="container">
             <div class="projects-content content">
                 <div class="projects title title">Наши новые проекты</div>
                 <ul class="projects-list">
                     <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                        <img loading="lazy" width="405" height="300" src="./assets/img/project1.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
                         <div class="projects-list__item-info">
                             <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
                             <div class="projects-list__item__price">111 600 ₽</div>
                         </div>
                     </li>
                     <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                        <img loading="lazy" width="405" height="300" src="./assets/img/project2.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
                         <div class="projects-list__item-info">
-                            <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
-                            <div class="projects-list__item__price">111 600 ₽</div>
+                            <h3 class="projects-list__item__title">Кухня с мрамором</h3>
+                            <div class="projects-list__item__price">201 000 ₽</div>
                         </div>
                     </li>
                     <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                        <img loading="lazy" width="405" height="300" src="./assets/img/project3.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
                         <div class="projects-list__item-info">
-                            <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
-                            <div class="projects-list__item__price">111 600 ₽</div>
-                        </div>
-                    </li>
-                    <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
-                        <div class="projects-list__item-info">
-                            <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
-                            <div class="projects-list__item__price">111 600 ₽</div>
-                        </div>
-                    </li>
-                    <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
-                        <div class="projects-list__item-info">
-                            <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
-                            <div class="projects-list__item__price">111 600 ₽</div>
-                        </div>
-                    </li>
-                    <li class="projects-list__item">
-                        <img loading="lazy" width="405" height="300" src="./assets/img/project.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
-                        <div class="projects-list__item-info">
-                            <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
-                            <div class="projects-list__item__price">111 600 ₽</div>
+                            <h3 class="projects-list__item__title">Кухня с барной стойкой</h3>
+                            <div class="projects-list__item__price">99 300 ₽</div>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="form" style="background: url('./assets/img/form.png'); background-size: cover;">
+    <div class="form" id="form" style="background: url('./assets/img/form.png'); background-size: cover;">
         <div class="container">
             <div class="form-content content">
-                <div class="form__title title">Покупайте мебель в рассрочку без %</div>
+                <div class="form__title title">Заказать рассчет проекта</div>
                 <ul class="form-list">
-                    <li class="form-list__item">Разработаем проект</li>
-                    <li class="form-list__item">Утверждаем проект и стоимость</li>
-                    <li class="form-list__item">Заключаем договор</li>
-                    <li class="form-list__item">Оплачиваете в рассрочку без % в течении 12 месяцев</li>
+                    <li class="form-list__item">Разработка проекта</li>
+                    <li class="form-list__item">Утверждение проекта и стоимости</li>
+                    <li class="form-list__item">Заключение договора</li>
+                    <li class="form-list__item">Оплата в рассрочку без % в течении 12 месяцев</li>
                     <li class="form-list__item">Старт оплаты после установки мебели</li>
                 </ul>
                 <form method="post" class="form-item">
@@ -211,7 +192,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about-content content">
                 <div class="about-content-main">
@@ -224,7 +205,7 @@
             </div>
         </div>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-content-top">

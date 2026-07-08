@@ -1,5 +1,6 @@
 .header{
     padding: 15px 0px;
+    position: relative;
 }
 
 .header-content-socials__link:not(:first-child){
@@ -66,6 +67,10 @@
     margin-left: 30px;
 }
 
+.menu__button{
+    display: none;
+}
+
 @media(max-width: 1200px){
     .header-content__logo-icon{
         width: 120px;
@@ -93,10 +98,62 @@
     .header-content-socials{
         display: none;
     }
+
+    .header-content__contact-item svg{
+        margin-right: 0px;
+    }
 }
 
 @media(max-width: 630px){
     .header-content-bottom{
-        display: none;
+        display: block;
+        position: absolute;
+        transform: translateY(-500px);
+        width: 100%;
+        background: var(--white);
+        bottom: 0;
+        left: 0;
+        border: none;
+        margin: 0;
+        padding: 0;
+        transition: 0.4s;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .menu__button{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin-left: 20px;
+    }
+
+    .menu__button div{
+        width: 25px;
+        height: 2px;
+        border-radius: 8px;
+        background: var(--gray);
+        transition: 0.4s;
+    }
+
+    .menu__button.active div{
+        background: var(--yellow);
+    }
+
+    .menu__button div:not(:first-child){
+        margin-top: 5px;
+    }
+
+    .header-content-bottom.active{
+        transform: translateY(192px);
+    }
+
+    .header-nav-menu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-nav-menu__item:not(:first-child){
+        margin-top: 15px;
+        margin-left: 0;
     }
 }
