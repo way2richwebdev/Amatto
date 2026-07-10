@@ -74,6 +74,10 @@
     opacity: 1;
 }
 
+.projects-list.responsive{
+    display: none;
+}
+
 @media(max-width: 1298px){
     .projects-list__item{
         width: 300px;
@@ -89,5 +93,23 @@
 
     .projects-list__item__title{
         max-width: 150px;
+    }
+}
+
+@media(max-width: 768px){
+    .projects-list{
+        display: none;
+    }
+    
+    .projects-list.responsive{
+        display: block;
+    }
+
+    .projects-list__item{
+        margin: 0;
+    }
+
+    .projects-list{
+        margin-top: 30px;
     }
 }

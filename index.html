@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/homepage/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <title>Ammato</title>
 </head>
 <body>
@@ -101,7 +102,7 @@
             <div class="intro-content">
                 <h1 class="intro__title">Мебель для дома и безнеса в Москве</h1>
                 <p class="intro__descr">Мы предлагаем широкий спектр услуг, которые включают в себя дизайн интерьера, изготовление мебели на заказ и монтаж. </p>
-                <a href="" class="intro__link button light">Каталог</a>
+                <a href="#catalog" class="intro__link button light">Каталог</a>
             </div>
         </div>
     </div>
@@ -170,6 +171,33 @@
                         </div>
                     </li>
                 </ul>
+                <div class="swiper projects-list responsive">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide projects-list__item">
+                            <img loading="lazy" width="405" height="300" src="./assets/img/project1.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                            <div class="projects-list__item-info">
+                                <h3 class="projects-list__item__title">Кухня классическая с островом</h3>
+                                <div class="projects-list__item__price">111 600 ₽</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-list__item">
+                            <img loading="lazy" width="405" height="300" src="./assets/img/project2.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                            <div class="projects-list__item-info">
+                                <h3 class="projects-list__item__title">Кухня с мрамором</h3>
+                                <div class="projects-list__item__price">201 000 ₽</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects-list__item">
+                            <img loading="lazy" width="405" height="300" src="./assets/img/project2.png" alt="Кухня классическая с островом" class="projects-list__item__preview">
+                            <div class="projects-list__item-info">
+                                <h3 class="projects-list__item__title">Кухня с мрамором</h3>
+                                <div class="projects-list__item__price">201 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -330,5 +358,6 @@
     </div>  
     <!-- Микроразметка -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="./js/index.js"></script>
 </html>
