@@ -106,8 +106,11 @@
     }
 
     .projects-list__item-info{
-        width: 380px;
+        width: 320px;
         height: 280px;
+    }
+
+    .projects-list__item{
     }
     
     .projects-list.responsive{
