@@ -11,6 +11,10 @@
     font-family: 'Montserrat';
 }
 
+input{
+    border: none;
+}
+
 html{
     scroll-behavior: smooth;
 }

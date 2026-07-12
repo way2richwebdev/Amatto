@@ -78,6 +78,10 @@
     display: none;
 }
 
+.swiper-navigation-icon, .swiper-navigation-icon path{
+    fill: var(--yellow) !important;
+}
+
 @media(max-width: 1298px){
     .projects-list__item{
         width: 300px;
@@ -99,6 +103,11 @@
 @media(max-width: 768px){
     .projects-list{
         display: none;
+    }
+
+    .projects-list__item-info{
+        width: 380px;
+        height: 280px;
     }
     
     .projects-list.responsive{
